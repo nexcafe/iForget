@@ -1,0 +1,18 @@
+一、准备帐号
+到Github上注册个帐号
+
+二、下载安装客户端（Windows）
+    http://github-windows.s3.amazonaws.com/setup.exe
+    这只是一个引导安装的可执行文件，很小，运行它的时候它会从网上下载完整的安装程序，三十几兆。
+
+三、配置
+    安装完毕后，首先会让填Github的帐号和密码，后面的似乎没什么修改就Continue完了。
+
+主界面最左，分两大块：local和github
+
+客户端会发现Github上面的repo，clone下来之后可以在本地的目录下修改了。
+修改后在客户端的界面会提示还有未提交的更改。
+
+提交前要求设置好自己的名称和邮箱地址，这个在主界面，tools->options... 然后在 configure git里设置。另，自定义本地的github路径也在这个界面，右上角的default storage directory，改完之后点UPDATE。
+
+commit之后，是还没有同步到github的，要点界面上方的sync，将这次提交的内容同步到网站上。
